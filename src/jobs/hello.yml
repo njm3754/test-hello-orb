@@ -11,5 +11,5 @@ parameters:
     default: "World"
     description: "Hello to whom?"
 steps:
-  - greet:
+  - greetings:
       to: << parameters.to >>
