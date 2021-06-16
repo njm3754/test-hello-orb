@@ -13,3 +13,5 @@ parameters:
 steps:
   - greet:
       to: << parameters.to >>
+  - greeting:
+      to: << parameters.to >>      
