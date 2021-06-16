@@ -9,4 +9,3 @@ parameters:
     description: "Hello to whom?"
 steps:
   - run: echo "Hello, << parameters.to >>"
-  
